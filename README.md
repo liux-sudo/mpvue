@@ -2,6 +2,10 @@
 
 拉取项目到本地
 
+```js
+git clone https://gitee.com/L1999G0318X/mpvue.git
+```
+
 执行以下命令
 
 ```js
