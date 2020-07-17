@@ -1,0 +1,13 @@
+<template name="6197fd64">
+  <view class="_div data-v-20e012d4 movies">
+    <view class="_div data-v-20e012d4 movies_content" wx:key="index" key="{{index}}" wx:for="{{movieList}}" wx:for-index="index" wx:for-item="item">
+      <image class="_img data-v-20e012d4 cover" src="/static/images/default.jpeg" alt></image>
+      <view class="_div data-v-20e012d4">
+        <view class="_p data-v-20e012d4">{{item.data.title}}</view>
+        <view class="_p data-v-20e012d4">类型：{{item.data.category}}</view>
+        <view class="_p data-v-20e012d4">描述：{{item.data.descriptionEditor}}</view>
+      </view>
+      <view class="_p data-v-20e012d4 num">9.0</view>
+    </view>
+  </view>
+</template>

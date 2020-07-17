@@ -1,0 +1,20 @@
+<template name="69019b92">
+  <view class="_div data-v-92bc3422 detail">
+    <view class="_div data-v-92bc3422 detail_img">
+      <image class="_img data-v-92bc3422 detail_img_bg" src="{{detailsList.detail_img}}" alt></image>
+      <image bindtap="handleProxy" class="_img data-v-92bc3422 music" src="{{isMusic ? '/static/images/music-start.png' : '/static/images/music-stop.png' }}" alt data-eventid="{{'0'}}" data-comkey="{{$k}}"></image>
+    </view>
+    <view class="_div data-v-92bc3422 detail_from">
+      <image src="{{detailsList.avatar}}" alt class="_img data-v-92bc3422"></image> <label class="_span data-v-92bc3422">{{detailsList.date}}</label>
+    </view>
+    <view class="_p data-v-92bc3422 detail_title">{{detailsList.title}}</view>
+    <view class="_div data-v-92bc3422 detail_content">
+      <view class="_div data-v-92bc3422 detail_content-img">
+        <image bindtap="handleProxy" src="{{isSc ? '/static/images/collection.png' : '/static/images/collection-anti.png' }}" alt data-eventid="{{'1'}}" data-comkey="{{$k}}" class="_img data-v-92bc3422"></image>
+        <image bindtap="handleProxy" src="/static/images/share.png" alt data-eventid="{{'2'}}" data-comkey="{{$k}}" class="_img data-v-92bc3422"></image>
+      </view>
+      <view class="_div data-v-92bc3422 line"></view>
+    </view> <button class="_button data-v-92bc3422 btn" open-type="share">转发此文章</button>
+    <view class="_p data-v-92bc3422 detail_footer_content">{{detailsList.detail_content}}</view>
+  </view>
+</template>

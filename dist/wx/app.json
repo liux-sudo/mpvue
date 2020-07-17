@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/movies/main",
+    "pages/index/main",
+    "pages/list/main",
+    "pages/logs/main",
+    "pages/detail/main",
+    "pages/counter/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#489b81",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [{
+        "pagePath": "pages/list/main",
+        "text": "文字",
+        "iconPath": "/static/images/font-defaule.png",
+        "selectedIconPath": "/static/images/font.png"
+      },
+      {
+        "pagePath": "pages/movies/main",
+        "text": "电影",
+        "iconPath": "/static/images/dyDefaule.png",
+        "selectedIconPath": "/static/images/dy.png"
+      }
+    ]
+  }
+}

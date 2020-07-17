@@ -1,0 +1,14 @@
+<template name="70970f89">
+  <view class="_div data-v-5bb9c341 listTem">
+    <view class="_div data-v-5bb9c341 list_content_header">
+      <image src="{{item.avatar}}" alt class="_img data-v-5bb9c341"></image> <label class="_span data-v-5bb9c341">{{item.date}}</label>
+    </view>
+    <view class="_p data-v-5bb9c341 list_title">{{item.title}}</view>
+    <image class="_img data-v-5bb9c341 list_img" src="{{item.detail_img}}" alt></image>
+    <view class="_p data-v-5bb9c341 list_content">{{item.detail_content}}</view>
+    <view class="_div data-v-5bb9c341 list_footer">
+      <image src="/static/images/icon_defaultSc.png" alt class="_img data-v-5bb9c341"></image> <label class="_span data-v-5bb9c341 sc">{{item.love_count}}</label>
+      <image src="/static/images/browse.png" alt class="_img data-v-5bb9c341"></image> <label class="_span data-v-5bb9c341">{{item.attention_count}}</label>
+    </view>
+  </view>
+</template>

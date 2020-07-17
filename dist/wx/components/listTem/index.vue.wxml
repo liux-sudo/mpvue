@@ -1,0 +1,14 @@
+<template name="e8e67cf6">
+  <view class="_div data-v-19c4be66 listTem" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+    <view class="_div data-v-19c4be66 list_content_header">
+      <image src="{{item.avatar}}" alt class="_img data-v-19c4be66"></image> <label class="_span data-v-19c4be66">{{item.date}}</label>
+    </view>
+    <view class="_p data-v-19c4be66 list_title">{{item.title}}</view>
+    <image class="_img data-v-19c4be66 list_img" src="{{item.detail_img}}" alt></image>
+    <view class="_p data-v-19c4be66 list_content">{{item.detail_content}}</view>
+    <view class="_div data-v-19c4be66 list_footer">
+      <image src="/static/images/icon_defaultSc.png" alt class="_img data-v-19c4be66"></image> <label class="_span data-v-19c4be66 sc">{{item.love_count}}</label>
+      <image src="/static/images/browse.png" alt class="_img data-v-19c4be66"></image> <label class="_span data-v-19c4be66">{{item.attention_count}}</label>
+    </view>
+  </view>
+</template>
