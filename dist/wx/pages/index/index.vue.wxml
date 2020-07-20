@@ -1,4 +1,4 @@
-<template name="34099e86">
+<template name="2e4b439e">
   <view class="_div data-v-6b277275 index_content">
     <image wx:if="{{isShow}}" class="_img data-v-6b277275 userImg" src="{{userInfo.avatarUrl}}" alt></image>
     <view wx:if="{{isShow}}" class="_p data-v-6b277275 userName">{{userInfo.nickName}}</view><button class="_button data-v-6b277275 getUserInfo" wx:else open-type="getUserInfo" bindgetuserinfo="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">点击获取用户信息</button>

@@ -1,6 +1,0 @@
-<template name="0565dd67">
-  <view class="_div data-v-1eeeddc2 counter-warp">
-    <view class="_p data-v-1eeeddc2">Vuex counter：{{ count }}</view>
-    <view class="_p data-v-1eeeddc2"><button bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_button data-v-1eeeddc2">+</button> <button bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" class="_button data-v-1eeeddc2">-</button></view>
-  </view>
-</template>

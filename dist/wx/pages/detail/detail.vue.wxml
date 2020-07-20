@@ -1,4 +1,4 @@
-<template name="69019b92">
+<template name="d96e5aaa">
   <view class="_div data-v-92bc3422 detail">
     <view class="_div data-v-92bc3422 detail_img">
       <image class="_img data-v-92bc3422 detail_img_bg" src="{{detailsList.detail_img}}" alt></image>

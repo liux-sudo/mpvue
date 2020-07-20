@@ -1,4 +1,4 @@
-<template name="e8e67cf6">
+<template name="06b94991">
   <view class="_div data-v-19c4be66 listTem" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
     <view class="_div data-v-19c4be66 list_content_header">
       <image src="{{item.avatar}}" alt class="_img data-v-19c4be66"></image> <label class="_span data-v-19c4be66">{{item.date}}</label>

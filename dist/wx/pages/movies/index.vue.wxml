@@ -1,4 +1,4 @@
-<template name="6197fd64">
+<template name="283a825a">
   <view class="_div data-v-20e012d4 movies">
     <view class="_div data-v-20e012d4 movies_content" wx:key="index" key="{{index}}" wx:for="{{movieList}}" wx:for-index="index" wx:for-item="item">
       <image class="_img data-v-20e012d4 cover" src="/static/images/default.jpeg" alt></image>
